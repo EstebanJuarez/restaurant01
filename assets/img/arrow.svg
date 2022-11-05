@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="arrow" clip-path="url(#clip0_123_2)">
+<g id="row1_1_">
+<g id="_x31__3_">
+<g id="_x32__2_">
+<g id="Group">
+<path id="Vector" d="M128 64C128 28.7 99.3 0 64 0C28.7 0 0 28.7 0 64C0 99.3 28.7 128 64 128C99.3 128 128 99.3 128 64ZM6.4 64C6.4 32.2 32.2 6.4 64 6.4C95.8 6.4 121.6 32.2 121.6 64C121.6 95.8 95.8 121.6 64 121.6C32.2 121.6 6.4 95.8 6.4 64ZM89.6 49.2L64 73.6L38.4 49.2V62.7L64 86.4L89.6 62.7L89.6 49.2Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_123_2">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

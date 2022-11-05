@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* incio de navbar */
+.navbar {
+
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+.nav-link {
+
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* fin de navbar */
+
+/* body */
+
+body {
+    background-color: black;
+    /* background-image: url("/assets/img/restaurante.jpg"); */
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.intro {
+    background-image: url("/assets/img/restaurant-interior.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 560px;
+}
+
+
+.arrow {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center
+}
+
+.arrow img {
+
+    height: 32px;
+}
+
+.primer-imagen {
+    background-image: url("/assets/img/comida.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.horarios h2,
+p {
+    color: white;
+}
+
+.menu-title {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.img-comida {
+    height: 300px;
+
+}
+
+.inicio-container {
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.texto-primer-comida {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    max-width: 500px;
+    margin-left: 15px;
+}
+
+.texto-primer-comida h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.texto-primer-comida p {
+    color: white;
+
+}
+
+
+
+.menu-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+
+
+}
+
+.menu-container p {
+    color: white;
+    font-size: 14px;
+
+}
+
+.menu-container img {
+    max-width: 312.5px;
+    height: 250px;
+}
+
+.menu-card {
+
+    max-width: 312.5px;
+    text-align: justify;
+    background-color: rgba(63, 8, 8, 0.5);
+}
+
+.menu-card h3 {
+
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.sidenav {
+    position: absolute;
+    /* margin-top: 50px; */
+    height: 100%;
+    max-height: 1200px;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenavRight {
+    position: absolute;
+    /* margin-top: 50px; */
+    height: 100%;
+    max-height: 1200px;
+    width: 50%;
+    z-index: 1;
+    top: 0;
+
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+.myBtn {
+    border: none;
+    cursor: pointer;
+    background: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='160' height='154' viewBox='0 0 160 154' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Group 2'%3E%3Cpath id='Ellipse 1' d='M160 77C160 119.526 124.183 154 80 154C35.8172 154 0 119.526 0 77C0 34.4741 35.8172 0 80 0C124.183 0 160 34.4741 160 77Z' fill='black'/%3E%3Ccircle id='Ellipse 2' cx='80' cy='65' r='11' fill='white'/%3E%3Cpath id='Vector 7' d='M71.0924 94.9302C72.7432 89.5039 74.9875 74 74.9875 74H84.3358C85.6342 79.6848 87.3597 89.5039 88.9175 94.9302C90.4752 100.357 69.4416 100.357 71.0924 94.9302Z' fill='white' stroke='white'/%3E%3C/g%3E%3C/svg%3E%0A");
+    position: absolute;
+    z-index: 3;
+    margin: auto;
+    max-width: 160px;
+    height: 154px;
+    top: 12%;
+    left: 0;
+    right: 0;
+}
+.middle {
+    background-color: rgb(13, 12, 116);
+
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    max-width: 70px;
+    height: 800px;
+    top: 0%;
+    left: 0;
+    right: 0;
+}
+.middle1 {
+    background-color: red;
+
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    max-width: 30px;
+    height: 800px;
+    top: 0%;
+    left: -5%;
+    right: 0;
+}
+.middle2 {
+    background-color: red;
+
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    max-width: 30px;
+    height: 800px;
+    top: 0%;
+    left: 5%;
+    right: 0;
+}
+
+.logo{
+
+
+    position: absolute;
+    z-index: 2;
+
+    max-width: 400px;
+    height: 400px;
+    top:0%;
+    left: 0;
+    right: 0;
+}
+
+@media(max-width:768px) {
+    .myBtn {
+        top: 7%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .nav-menu.active {
+
+        display: flex;
+        height: 800px;
+        align-items: center;
+        align-content: center;
+        z-index: 50;
+        background-color: black;
+        left: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+
+    .menu-container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+
+
+    }
+
+    .menu-card {
+        margin-top: 20px;
+    }
+}
